@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 挂载点 -->
+  <div id = 'app'>
+    <p>{{ name }}</p>
+    <p>{{ age }}</p>
+  </div>
+  <!-- 引入 Vue 的核心 -->
+</body>
+<script src = './index.js'></script>
+<script>
+  var vm = new Vue({
+    el: "#app",
+    data: {
+      name: "张三",
+      age: 18
+    }
+  })
+
+
+</script>
+</html>
